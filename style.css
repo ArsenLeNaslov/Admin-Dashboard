@@ -7,6 +7,9 @@ body {
    margin: 0;
    background-image: url(img/galaxy.jpg);
    background-color: black;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
 }
 
 h1 {
