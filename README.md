@@ -1,6 +1,6 @@
 # Odin's Galaxy Admin Dashboard
 
-Odin Project's Admin Dashboard exercise to practice Grid properties. Referenceing Odin's "Project:Admin Dasboard": https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard
+A galaxy themed Admin Dashboard exercise to practice Grid properties. Referencing Odin's "Project: Admin Dashboard": https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard
 
 https://arsenlenaslov.github.io/Admin-Dashboard/
 
@@ -8,7 +8,7 @@ https://arsenlenaslov.github.io/Admin-Dashboard/
 - Profile Icon in the upper right-hand corner redirects to my GitHub Profile.
 - All projects' title cards redirect to a specific Odin project I completed.
 - Planet icons in Trending redirect to their specific Wikipedia page.
-- Announcements' titles redirect to a specific external profile/profile of mine.
+- Announcements' titles redirect to a specific external profile/site of mine.
 
 - Favicon & all GIFs from Icons8, creative common license
 - Background image from Pixabay, free for use under the website content license
