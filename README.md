@@ -1,6 +1,7 @@
 # Admin-Dashboard
 
-Odin Project's Admin Dashboard exercise to practice Grid properties. Referenceing Odin's "Project:Admin Dasboard" https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard
+Odin Project's Admin Dashboard exercise to practice Grid properties. Referenceing Odin's "Project:Admin Dasboard": https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard
+https://arsenlenaslov.github.io/Admin-Dashboard/
 
 # Details
 - Profile Icon in the upper right-hand corner redirects to my GitHub Profile.
