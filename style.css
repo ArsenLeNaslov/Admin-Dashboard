@@ -286,6 +286,7 @@ button:hover {
 #trending {
    grid-column: 3;
    grid-row: 2/3;
+   margin-top: 40px;
 }
 
 .sectionTitle {
