@@ -1,4 +1,4 @@
-# Admin-Dashboard
+# Odin's Galaxy Admin Dashboard
 
 Odin Project's Admin Dashboard exercise to practice Grid properties. Referenceing Odin's "Project:Admin Dasboard": https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard
 
