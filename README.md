@@ -1,6 +1,7 @@
 # Admin-Dashboard
 
 Odin Project's Admin Dashboard exercise to practice Grid properties. Referenceing Odin's "Project:Admin Dasboard": https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard
+
 https://arsenlenaslov.github.io/Admin-Dashboard/
 
 # Details
@@ -15,3 +16,5 @@ https://arsenlenaslov.github.io/Admin-Dashboard/
 - Venus pic from https://scitechdaily.com/5-surprising-facts-about-the-planet-venus/
 - Saturn pic from https://scitechdaily.com/chrysalis-saturns-ancient-missing-moon/
 - Neptune pic from https://scitechdaily.com/astronomers-puzzled-by-dark-storms-u-turn-on-neptune-appearance-of-new-dark-spot/
+
+<img width="1908" height="774" alt="Odin Admin Dashboard" src="https://github.com/user-attachments/assets/8c58ea7b-1452-4318-ac45-8c1dd76541c0" />
