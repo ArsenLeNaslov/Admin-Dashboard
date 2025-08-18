@@ -49,6 +49,9 @@ p {
    height: 100vh;
    background-image: url(img/galaxy.jpg);
    background-color: black;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
    border-right: 6px solid lightskyblue;
    z-index: 20;
    position: fixed;
@@ -131,6 +134,9 @@ li {
    left: 300px;
    background-image: url(img/galaxy.jpg);
    background-color: black;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
    border-bottom: 6px solid lightskyblue;
    border-left: 6px solid lightskyblue;
    display: grid;
