@@ -10,20 +10,23 @@ body {
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
-
 }
+
 h1 {
    font-weight: 600;
    margin: 0;
 }
+
 h2 {
    font-size: 18px;
    font-weight: 500;
    margin: 0;
 }
+
 p {
    margin: 0;
 }
+
 #wrapper {
    width: 100%;
    max-height: 100%;
@@ -31,7 +34,6 @@ p {
    display: grid;
    grid-template-columns: 300px 1fr;
    grid-template-rows: 180px 1fr;
-   background-color: transparent;
    background-image: url(img/galaxy.jpg);
    background-position: center;
    background-size: cover;
@@ -39,17 +41,23 @@ p {
    inset: 0;
    z-index: -1;
 }
+
 /* Vertical Sidebar */
 #verticalMenuSidebar {
    width: 300px;
    height: 100vh;
-   height: 100dvh; 
+   height: 100dvh;
+   border-radius: 10%;
    background-image: url(img/galaxy.jpg);
-   background-color: black;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: local;
    border-right: 6px solid lightskyblue;
    z-index: 20;
    position: fixed;
 }
+
 #logo {
    height: 90px;
    color: orange;
@@ -59,48 +67,57 @@ p {
    align-items: center;
    justify-items: start;
 }
+
 .sidebarTitle {
    grid-column: 3;
    font-size: 20px;
 }
+
 .logoGif {
    width: 70px;
    fill: white;
    grid-column: 2;
 }
+
 ul {
    list-style: none;
    color: white;
    display: grid;
    padding-left: 35px;
 }
+
 #navList {
    grid-template-rows: repeat(6, 55px);
    margin-top: 20px;
    color: yellow;
    text-shadow: 4px 4px 10px cyan;
 }
+
 #settingsList {
    grid-template-rows: repeat(3, 55px);
    margin-top: 60px;
    color: yellow;
    text-shadow: 4px 4px 10px cyan;
 }
+
 li {
    display: grid;
    grid-template-columns: 30px 1fr;
    align-items: center;
    cursor: pointer;
 }
+
 .navIcon {
    width: 50px;
    fill: white;
    justify-self: end;
 }
+
 .navTitle {
    justify-self: start;
    padding-left: 25px;
 }
+
 .navTitle:hover {
    transform: scale(1.4);
    transition: transform 0.3s ease;
@@ -108,6 +125,7 @@ li {
    text-shadow: 0 0 10px yellow;
    cursor: pointer;
 }
+
 /* Header, Profile, Searchbar & Buttons */
 #header {
    width: calc(100vw - 300px);
@@ -115,8 +133,12 @@ li {
    z-index: 20;
    position: fixed;
    left: 300px;
+   border-radius: 10%;
    background-image: url(img/galaxy.jpg);
-   background-color: black;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: local;
    border-bottom: 6px solid lightskyblue;
    border-left: 6px solid lightskyblue;
    display: grid;
@@ -126,6 +148,7 @@ li {
    -webkit-box-shadow: 0 4px 8px -6px black;
    -moz-box-shadow: 0 4px 8px -6px black;
 }
+
 #search {
    grid-column: 1/3;
    grid-row: 1;
@@ -134,19 +157,26 @@ li {
    grid-template-columns: 35px 1fr;
    align-items: center;
    justify-items: start;
-   padding: 0 30px;
+   padding: 0 50px;
+   gap: 20px;
 }
+
 #searchBar {
    width: 100%;
    max-width: 600px;
    height: 35px;
-   background-color: white;
    border-radius: 50px;
+   background-color: rgba(255, 255, 255, 0.2);
+   border: 1px white;
+   box-shadow: 0 0 10px lightskyblue;
+   backdrop-filter: blur(1px);
 }
+
 .searchIcon {
-   height: 41px;
+   height: 60px;
    cursor: pointer;
 }
+
 #profile {
    grid-column: 3/4;
    grid-row: 1;
@@ -156,6 +186,7 @@ li {
    align-items: center;
    justify-items: center;
 }
+
 .profilePic {
    max-width: 100%;
    max-height: 100%;
@@ -164,22 +195,26 @@ li {
    object-fit: cover;
    aspect-ratio: 1 / 1; 
 }
+
 .profilePic:hover {
    transform: scale(1.2);
    transition: transform 0.3s ease;
    box-shadow: 0 0 10px yellow;
    cursor: pointer;
 }
+
 .profileMain {
    height: 45px;
    grid-column: 3;
    cursor: pointer;
 }
+
 .notifications {
    height: 30px;
    grid-column: 2;
    cursor: pointer;
 }
+
 #actions {
    grid-column: 2/4;
    grid-row: 2;
@@ -188,6 +223,7 @@ li {
    align-items: center;
    justify-items: start;
 }
+
 button {
    background-color: transparent;
    box-shadow: 0 0 10px yellow;
@@ -201,6 +237,7 @@ button {
    border-radius: 50px;
    cursor: pointer;
 }
+
 button:hover {
    transform: scale(1.2);
    transition: transform 0.3s ease;
@@ -208,6 +245,7 @@ button:hover {
    box-shadow: 0 0 10px yellow;
    cursor: pointer;
 }
+
 #accountWelcome {
    grid-column: 1/2;
    grid-row: 2;
@@ -218,16 +256,19 @@ button:hover {
    justify-items: start;
    color: white;
 }
+
 .profileWelcome { 
    height: 65px;
    grid-column: 2;
    grid-row: 1/4;
 }
+
 .greeting {
    grid-column: 3;
    grid-row: 2;
    align-self: end;
 }
+
 #name {
    grid-column: 3;
    grid-row: 3;
@@ -235,6 +276,7 @@ button:hover {
    padding-top: 2px;
    font-size: 24px;
 }
+
 /* Main with Project Cards, Announcements & Trending Sections */
 #mainContent {
    max-width: 100%;
@@ -246,30 +288,36 @@ button:hover {
    grid-template-rows: 380px 1fr;
    padding: 30px;
 }
+
 #projects {
    grid-column: 1/2;
    grid-row: 1/3;
 }
+
 #announcements {
    grid-column: 3;
    grid-row: 1/2;
 }
+
 #trending {
    grid-column: 3;
    grid-row: 2/3;
    margin-top: 40px;
 }
+
 .sectionTitle {
    font-size: 20px;
    color: cyan;
    padding-bottom: 10px;
 }
+
 #announcements h3 a {
    font-size: 16px;
    color: orange;
    text-decoration: none;
    text-shadow: 2px 2px 6px cyan;
 }
+
 #announcements h3 a:hover {
    transform: scale(1.05);
    transition: transform 0.3s ease;
@@ -277,12 +325,14 @@ button:hover {
    text-shadow: 0 0 10px yellow;
    cursor: pointer;
 }
+
 #cards {
    display: grid;
    grid-template-columns: repeat(auto-fill, minmax(380px, 380px));
    grid-gap: 20px;
    background-color: transparent;
 }
+
 /* Announcements Card */
 #announcementsCard {
    height: 265px;
@@ -292,22 +342,26 @@ button:hover {
    padding: 30px;
    grid-gap: 15px;
 }
+
 .announcements h3 {
    margin: 0;
    font-size: 15px;
    color: white;
    padding-bottom: 4px;
 }
+
 .announcements p {
    font-size: 12px;
    color: white;
    padding-bottom: 15px;
    border-bottom: 1px solid white;
 }
+
 .announcements:nth-child(3) p {
    border-bottom: 0px solid white;
    padding-bottom: 0px;
 }
+
 /* Trending Card */
 #trendingCard {
    height: 270px;
@@ -317,6 +371,7 @@ button:hover {
    grid-gap: 20px;
    padding: 20px;
 }
+
 .trendingProfile {
    display: grid;
    grid-template-columns: 62px 1fr;
@@ -326,9 +381,11 @@ button:hover {
    height: 50px;
    cursor: pointer;
 }
+
 .trendingProfile a {
    display: contents;
 }
+
 .trendingPic {
    border-radius: 50%;
    max-height: 80px;
@@ -339,12 +396,14 @@ button:hover {
    grid-column: 1;
    grid-row: 1/3;
 }
+
 .trendingPic:hover {
    transform: scale(1.5);
    transition: transform 0.3s ease;
    box-shadow: 0 0 10px blue;
    cursor: pointer;
 }
+
 .handle {
    font-size: 16px;
    font-weight: 400;
@@ -355,6 +414,7 @@ button:hover {
    grid-row: 1/2;
    align-self: end;
 }
+
 .trendingProject {
    color: white;
    font-weight: 200;
@@ -363,6 +423,7 @@ button:hover {
    grid-row: 2/3;
    align-self: start;
 }
+
 /* Main Cards */
 .card {
    background-color: transparent;
@@ -372,6 +433,7 @@ button:hover {
    -webkit-box-shadow: 2px 2px 4px -2px white;
    -moz-box-shadow: 2px 2px 4px -2px white;
 }
+
 .contentCard {
    height: 215px;
    width: 370px;
@@ -381,11 +443,13 @@ button:hover {
    display: grid;
    grid-template-rows: 45px 120px 50px;
 }
+
 #contentCard:hover {
    transform: scale(1.4);
    transition: transform 0.3s ease;
    cursor: pointer;
 }
+
 #cardActions {
    width: 140px;
    display: grid;
@@ -394,15 +458,18 @@ button:hover {
    justify-self: end;
    align-self: end;
 }
+
 .cardTitle {
    padding: 20px 20px 0px 20px;
    margin: 0;
 }
+
 .cardTitle a {
    color: orange;
    text-decoration: none;
    text-shadow: 4px 4px 10px blue;
 }
+
 .cardTitle:hover {
    transform: scale(1.1);
    transition: transform 0.3s ease;
@@ -410,38 +477,15 @@ button:hover {
    color: orange;
    text-shadow: 4px 4px 10px blue;
 }
+
 .cardDescription {
    padding: 5px 20px;
    justify-self: start;
    font-size: small;
 }
+
 .cardAction {
    height: 27px;
    justify-self: end;
    cursor: pointer;
-}
-
-/* Adjust layout for small screens and mobiles in Landscape mode */
-@media screen and (max-height: 500px), screen and (max-width: 600px) {
-  #verticalMenuSidebar {
-    height: 100dvh;
-    overflow-y: auto;
-    background-position: center center;
-    background-size: cover;
-  }
-
-  #wrapper {
-    grid-template-columns: 250px 1fr;
-    overflow: visible;
-  }
-
-  ul {
-    padding-bottom: 40px;/
-  }
-}
-
-@media screen and (orientation: landscape) and (max-height: 500px) {
-  #verticalMenuSidebar {
-    background-size: contain;
-  }
 }
