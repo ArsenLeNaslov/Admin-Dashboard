@@ -47,12 +47,14 @@ p {
 #verticalMenuSidebar {
    width: 300px;
    height: 100vh;
+   height: 100dvh; /* overrides if supported */
    overflow-y: auto;
    background-image: url(img/galaxy.jpg);
    background-color: black;
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
+   background-attachment: local;
    border-right: 6px solid lightskyblue;
    z-index: 20;
    position: fixed;
@@ -307,14 +309,14 @@ button:hover {
 }
 
 #announcements h3 a {
-   font-size: 16px;
+   font-size: 18px;
    color: orange;
    text-decoration: none;
    text-shadow: 2px 2px 6px cyan;
 }
 
 #announcements h3 a:hover {
-   transform: scale(1.05);
+   transform: scale(1.5);
    transition: transform 0.3s ease;
    color: blue;
    text-shadow: 0 0 10px yellow;
@@ -485,13 +487,29 @@ button:hover {
    cursor: pointer;
 }
 
-/* Ensures Sidebar & Wrapper adapt to constrained vertical space on small screens */
+/* Adjust layout for small screens and mobiles in Landscape mode  */
 @media screen and (max-height: 500px), screen and (max-width: 600px) {
-   #verticalMenuSidebar {
-      height: 100%;
-   }
+  #verticalMenuSidebar {
+    height: 100dvh;
+    overflow-y: auto;
+    background-position: center center;
+    background-size: cover;
+  }
 
-   #wrapper {
-      grid-template-columns: 250px 1fr;
-   }
+  #wrapper {
+    grid-template-columns: 250px 1fr;
+    overflow: visible;
+  }
+
+  ul {
+    padding-bottom: 40px;
+  }
 }
+
+/* Makes the background image fit better when the screen is wider than it is tall */
+@media screen and (orientation: landscape) and (max-height: 500px) {
+  #verticalMenuSidebar {
+    background-size: contain;
+  }
+}
+
