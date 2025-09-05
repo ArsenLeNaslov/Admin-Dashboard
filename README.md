@@ -1,8 +1,8 @@
 # Odin's Galaxy Admin Dashboard
 
-A galaxy themed Admin Dashboard exercise to practice Grid properties. Referencing Odin's "Project: Admin Dashboard": https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard
+A galaxy themed Admin Dashboard exercise to practice Grid properties. Referencing Odin's Project: [Admin Dashboard](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard).
 
-https://arsenlenaslov.github.io/Admin-Dashboard/
+Live preview [Odin's Galaxy Admin Dashboard](https://arsenlenaslov.github.io/Admin-Dashboard/)
 
 # Details
 - Profile Icon in the upper right-hand corner redirects to my GitHub Profile.
