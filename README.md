@@ -18,5 +18,6 @@ Live preview [Odin's Galaxy Admin Dashboard](https://arsenlenaslov.github.io/Adm
 - Neptune pic from https://scitechdaily.com/astronomers-puzzled-by-dark-storms-u-turn-on-neptune-appearance-of-new-dark-spot/
 - ["ZenDots](https://www.cufonfonts.com/font/zen-dots) font is free to use under the [Open Font License](https://openfontlicense.org/)
 
-<img width="1908" height="927" alt="Odin Admin Dashboard" src="https://github.com/user-attachments/assets/5b36b1f6-58d7-48e3-bed9-6265d53b833a" />
+<img width="1903" height="922" alt="image" src="https://github.com/user-attachments/assets/7c6d41b9-5975-438c-81c0-8e4f695afd6b" />
+
 
